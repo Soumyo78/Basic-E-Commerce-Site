@@ -114,7 +114,7 @@ document.getElementById("total-btn").addEventListener("click", () => {
         item_4_final_price = 0;
     }
 
-    total_price = item_1_final_price + item_2_final_price + item_3_final_price + item_4_final_price
+    total_price = item_1_final_price + item_2_final_price + item_3_final_price + item_4_final_price;
     document.getElementById('price').innerHTML = total_price;
     return total_price;
   });
