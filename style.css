@@ -1,0 +1,116 @@
+#canvas{
+    background-color: aquamarine;
+}
+
+.header-name-section{
+    display: flex;
+    background-color: orangered;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #000000;
+}
+
+.site-name{
+    flex: 1;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-card{
+    flex: auto;
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.cart-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #000000;
+}
+
+.counter-add-to-cart{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btnPluse{
+   font-size: 15px;
+   font-weight: bolder;
+   max-height: 25px;
+}
+
+.digit{
+    font-size: 15px;
+    font-weight: bolder;
+    max-height: 25px;
+    max-width: 30px;
+    text-align: center;
+}
+
+.btn-{
+    font-size: 15px;
+    font-weight: bolder;
+    max-height: 25px;
+}
+
+.btn-add-to-cart{
+    font-size: 15px;
+    font-weight: bolder;
+    max-height: 25px;
+}
+
+.item-table{
+    flex: 3;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 25px;
+}
+
+.total-price{
+    flex: 1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#buy-btn{
+    background-color: red;
+    color: white;
+    border-radius: 24px 24px 24px 24px;
+    margin: 10px;
+    max-height: fit-content;
+}
+#buy-btn:hover{
+    background-color: rgb(240, 61, 61);
+    color: white;
+    border-radius: 24px 24px 24px 24px;
+}
+
+#total-btn{
+    background-color: red;
+    color: white;
+    border-radius: 24px 24px 24px 24px;
+    margin: 10px;
+}
+#total-btn:hover{
+    background-color: rgb(240, 61, 61);
+    color: white;
+    border-radius: 24px 24px 24px 24px;
+}

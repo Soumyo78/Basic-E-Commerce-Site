@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpeg">
+    <title>E-Commerce Site</title>
+</head>
+<body id="canvas">
+    <header class="header-name-section">
+        <div class="site-name">
+            e-Mall.com
+        </div>
+    </header>
+
+    <div class="item-cards">
+        <div id="card-1" class="item-card">
+            <h3>Samsung Galaxy S20+</h3>
+            <img id="item-1-pic" src="https://rukminim1.flixcart.com/image/416/416/k6mibgw0/mobile/8/v/h/samsung-galaxy-s20-sm-g985fzadinu-original-imafpfkbqg3hpmgt.jpeg?q=70" alt="Redmi Note 9 Pro Max" height="150px">
+            <h3>Price: ₹49,999</h3>
+            <h4>Select quantity and add to cart</h4>
+            <div class="counter-add-to-cart">
+                <button id="item-1-btn+" class="btnPluse">+</button>
+                <input type="text" id="item-1-digit" class="digit" value="0" readonly>
+                <button id="item-1-btn-" class="btn-">-</button>
+                <button id="item-1-btn-cart" class="btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div id="card-2" class="item-card">
+            <h3>Samsung 6.5 kg Washing Machine</h3>
+            <img id="item-2-pic" src="https://rukminim1.flixcart.com/image/416/416/kevpwnk0/washing-machine-new/g/t/5/wa65a4002vs-tl-samsung-original-imafvgz4qzfazbsh.jpeg?q=70" alt="Samsung 6.5 kg washing machine" height="150px">
+            <h3>Price: ₹13,490</h3>
+            <h4>Select quantity and add to cart</h4>
+            <div class="counter-add-to-cart">
+                <button id="item-2-btn+" class="btnPluse">+</button>
+                <input type="text" id="item-2-digit" class="digit" value="0" readonly>
+                <button id="item-2-btn-" class="btn-">-</button>
+                <button id="item-2-btn-cart" class="btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div id="card-3" class="item-card">
+            <h3>Mi 4X 108 cm (43) Ultra HD (4K) LED Smart Android TV</h3>
+            <img id="item-3-pic" src="https://rukminim1.flixcart.com/image/416/416/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70" alt="Mi 4X 108 cm (43) Ultra HD (4K) LED Smart Android TV" height="150px">
+            <h3>Price: ₹25,999</h3>
+            <h4>Select quantity and add to cart</h4>
+            <div class="counter-add-to-cart">
+                <button id="item-3-btn+" class="btnPluse">+</button>
+                <input type="text" id="item-3-digit" class="digit" value="0" readonly>
+                <button id="item-3-btn-" class="btn-">-</button>
+                <button id="item-3-btn-cart" class="btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div id="card-4" class="item-card">
+            <h3>Apple All-in-One Core i5 (6th Gen) <br> (8 GB DDR3/2 TB/Mac OS X Lion/2 GB)</h3>
+            <img id="item-4-pic" src="https://rukminim1.flixcart.com/image/416/416/allinone-desktop/h/7/k/apple-apple-imac-original-imaejxpjzgxzcts4.jpeg?q=70" alt="Apple All-in-One Core i5 (6th Gen)" height="150px">
+            <h3>Price: ₹1,79,990</h3>
+            <h4>Select quantity and add to cart</h4>
+            <div class="counter-add-to-cart">
+                <button id="item-4-btn+" class="btnPluse">+</button>
+                <input type="text" id="item-4-digit" class="digit" value="0" readonly>
+                <button id="item-4-btn-" class="btn-">-</button>
+                <button id="item-4-btn-cart" class="btn-add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="cart-container">
+        <table class="item-table">
+            <caption style="font-size: 30px;"><u>Item Cart</u></caption>
+            <thead>
+                <tr>
+                    <td><u>Sl.No.</u></td>
+                    <td><u>Item Name</u></td>
+                    <td><u>Quantity</u></td>
+                    <td><u>Price</u></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Samsung Galaxy S20+</td>
+                    <td style="padding-left: 25px;" id="item-1-qnt">0</td>
+                    <td id="item-1-price">0</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Samsung 6.5 kg Washing Machine</td>
+                    <td style="padding-left: 25px;" id="item-2-qnt">0</td>
+                    <td id="item-2-price">0</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Mi 4X 108 cm (43) Ultra HD (4K) LED Smart Android TV</td>
+                    <td style="padding-left: 25px;" id="item-3-qnt">0</td>
+                    <td id="item-3-price">0</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Apple All-in-One Core i5 (6th Gen)(8 GB DDR3/2 TB/Mac OS X Lion/2 GB)</td>
+                    <td style="padding-left: 25px;" id="item-4-qnt">0</td>
+                    <td id="item-4-price">0</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total-price">
+            <h2>Total Price: ₹ <span id="price">0</span></h2>
+            <button style="font-weight: 900; font-size: 25px;" id="total-btn" class="btn-total">Calculate Total</button><br>
+            <button style="font-weight: 900; font-size: 25px;" id="buy-btn" class="btn-add-to-cart">Buy Now</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
