@@ -8,10 +8,6 @@ var item_2_price = 13490;
 var item_3_price = 25999;
 var item_4_price = 179990;
 
-function increment(i){
-    i++;
-}
-
 document.getElementById("item-1-btn+").addEventListener("click", () => {
     item_1_count += 1;
     document.getElementById("item-1-digit").value = item_1_count;
